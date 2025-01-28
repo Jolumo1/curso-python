@@ -1,22 +1,39 @@
 # Curso de Python desde cero (por @midudev)🐍
 
-![PYTHON1](https://github.com/user-attachments/assets/284de8a1-4cb2-4120-bbe4-227a71fd65c0)
+<div align="center">
+  <a href="https://x.com/midudev">
+    <img src="https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter">
+  </a>
+  <a href="https://twitch.tv/midudev/">
+    <img src="https://img.shields.io/badge/twitch-572364?style=for-the-badge&logo=twitch&logoColor=white" alt="Twitch">
+  </a>
+  <a href="https://www.youtube.com/@midudev">
+    <img src="https://img.shields.io/badge/youtube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
+  </a>
+</div>
 
-## 🤔¿Por qué deberías ver este curso?
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/284de8a1-4cb2-4120-bbe4-227a71fd65c0" alt="portada python">
+</div>
 
-✓ Aprenderás el lenguaje de programación del momento.<br />
-✓ **Todos los miércoles** tendrás una nueva clase.<br />
-✓ No te preocupes si no tienes conocimientos previos, este curso está diseñado para comenzar **desde cero** y guiarte paso a paso.<br />
-✓ Este curso es **práctico** y contará con ejercicios para que puedas practicar lo aprendido.<br />
-✓ Este curso es de **código abierto**, lo que te permitirá clonar el proyecto y tener acceso completo a todo lo que se muestra.<br />
+## 🤔 ¿Por qué deberías ver este curso?
 
-## 🕐Horario por países:
+- 🎯 **Aprenderás el lenguaje de programación del momento.**
+- 📅 **Nuevas clases todos los miércoles.**
+- 🚀 Ideal para principiantes: comienza **desde cero** y avanza paso a paso.
+- 🛠️ **Curso práctico** con ejercicios para que puedas practicar lo aprendido.
+- 📝 **Código abierto**: lo que te permitirá clonar el proyecto y tener acceso completo a todo lo que se muestra.
 
-18H 🇪🇸 17H 🇮🇨<br />
-14H 🇺🇾 🇦🇷 🇨🇱 🇵🇾<br />
-13H 🇹🇹 🇧🇴 🇻🇪 🇩🇴 🇵🇷<br />
-12H 🇨🇴 🇵🇪 🇪🇨 🇨🇺 🇵🇦<br />
-11H 🇲🇽 🇨🇷 🇳🇮 🇸🇻 🇭🇳<br />
+## 🕐 Horario por países
+
+| Hora | Países                                   |
+|------|------------------------------------------|
+| 18H  | 🇪🇸 España                               |
+| 17H  | 🇮🇨 Islas Canarias                       |
+| 14H  | 🇺🇾 Uruguay, 🇦🇷 Argentina, 🇨🇱 Chile, 🇵🇾 Paraguay |
+| 13H  | 🇹🇹 Trinidad y Tobago, 🇧🇴 Bolivia, 🇻🇪 Venezuela, 🇩🇴 República Dominicana, 🇵🇷 Puerto Rico |
+| 12H  | 🇨🇴 Colombia, 🇵🇪 Perú, 🇪🇨 Ecuador, 🇨🇺 Cuba, 🇵🇦 Panamá |
+| 11H  | 🇲🇽 México, 🇨🇷 Costa Rica, 🇳🇮 Nicaragua, 🇸🇻 El Salvador, 🇭🇳 Honduras |
 
 ## 📺¿Dónde puedo ver el curso? 
 Mira los cursos y participa en vivo en
@@ -29,10 +46,42 @@ Mira los cursos y participa en vivo en
   </g>
 </svg> 
 
+## 📄 Contenido 
+| Clase     | Código      | Video                          |
+|-----------------|-----------------|----------------------------------|
+|**1. Hola Mundo, Tipos de Datos, Conversión de tipos y Variables** | [![github](https://img.shields.io/badge/github-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/midudev/curso-python/tree/main/01_basic)  | [![twitch](https://img.shields.io/badge/twitch-572364?style=for-the-badge&logo=twitch&logoColor=white)](https://www.twitch.tv/videos/2354087841) |
+|**2. Condicionales, listas, loops y rangos + ejercicios**  | [![github](https://img.shields.io/badge/github-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/midudev/curso-python/tree/main/02_flow_control)  | [![twitch](https://img.shields.io/badge/twitch-572364?style=for-the-badge&logo=twitch&logoColor=white)](https://www.twitch.tv/videos/2360535344) |
+|**3. Próximamente** (Miércoles 29 de enero)  |  | |
 
-## 📄Contenido
 
-| **Clases**              | **Recursos**                                                                                     |
-|---------------------------|------------------------------------------------------------------------------------------------------|
-| **1. Hola Mundo, Tipos de Datos, Conversión de tipos y Variables**  | [Código](https://github.com/midudev/curso-python/tree/main/01_basic) <br/> [Vídeo](https://www.twitch.tv/videos/2354087841) |
-| **2. Booleanos, Condicionales, Listas, Bucles y Funciones**             | Código (se emite hoy) <br/> Vídeo (se emite hoy) |
+
+
+## 💻 ¿Quieres practicar en local?
+
+Clona el proyecto
+
+```bash
+  git clone https://github.com/midudev/curso-python
+```
+
+Dirígete a la carpeta
+
+```bash
+  cd curso-python
+```
+
+
+## ➕ Más información
+
+Descubre más en [cursopython.dev](https://cursopython.dev)
+
+
+## ⚖️ Licencia
+
+[CC-BY-NC-ND](https://github.com/midudev/curso-python/blob/main/LICENSE)
+
+
+## 👨‍💻 Autor
+
+[@midudev](https://www.github.com/midudev)
+
