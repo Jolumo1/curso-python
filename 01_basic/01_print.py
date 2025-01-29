@@ -5,14 +5,34 @@
 # TODA TU VIDA. Desde hoy hasta el fin de los tiempos
 ###
 
+# Este es un ejemplo básico de cómo imprimir un texto en consola
 print("¡Hola, Twitch!")
+
+# También puedes usar comillas simples para imprimir texto
 print('Esto también funciona con una comilla')
 
+# Puedes imprimir múltiples elementos separados por un espacio
 print("Python", "es", "genial")
 
+# El parámetro 'sep' permite definir cómo se separan los elementos impresos
 print("Python", "es", "brutal", sep = "-")
 
-print("Esto se imprime", end = "\n")
-print("en una línea")
+# El parámetro 'end' define lo que se imprime al final de la línea
+print("Esto se imprime", end = "\n") # Aquí, el 'end' tiene un salto de línea explícito
+print("en una línea") # Esto se imprime en la línea siguiente
 
+# También se pueden imprimir números directamente
 print(42)
+
+# Ejemplo de cómo imprimir el símbolo de pulgadas (")
+# Si usamos comillas dobles dentro de un string con comillas dobles, se produce un error:
+# print("Esto es una "pulgada"")  # ❌ Esto generaría un error de sintaxis
+
+# ✅ Solución 1: Usar comillas simples para encerrar la cadena
+print('Esto es una "pulgada" dentro de un string con comillas simples')
+
+# ✅ Solución 2: Usar el carácter de escape \ para incluir comillas dobles dentro de un string con comillas dobles
+print("Esto es una \"pulgada\" dentro de un string con comillas dobles")
+
+# ✅ Solución 3: Usar triple comillas para definir el string
+print("""Esto es una "pulgada" dentro de un string con triple comillas""")
