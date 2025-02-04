@@ -88,3 +88,11 @@ mostrar_informacion_de(super_name="felixicaza", es_modo=True, gatos=40)
 # y convertirlos en funciones
 # e intentar utilizar todos los casos y conceptos
 # que hemos visto hasta ahora
+
+def tabla_multiplicar(multiplicador):
+  for num in range(1,11):
+    resultado = num * multiplicador
+    print(f"{num} * {multiplicador} = {resultado}")
+
+
+tabla_multiplicar(2)
