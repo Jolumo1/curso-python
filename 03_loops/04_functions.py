@@ -47,10 +47,11 @@
 # print(multiplicar(2, 3))
 
 # Argumentos por posición
-def describir_persona(nombre, edad, sexo):
+def describir_persona(nombre: str, edad: int, sexo: str):
   print(f"Soy {nombre}, tengo {edad} años y me identifico como {sexo}")
 
 # parámetros son posicionales
+describir_persona(1, 25, "gato")
 describir_persona("midudev", 25, "gato")
 describir_persona("hombre", "madeval", 39)
 
