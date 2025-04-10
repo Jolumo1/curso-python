@@ -3,6 +3,7 @@
 # Los métodos más importantes para trabajar con listas
 ###
 
+<<<<<<< HEAD
 import os
 
 os.system("clear")
@@ -12,6 +13,16 @@ lista1 = ["a", "b", "c", "d"]
 # Añadir o insertar elementos a la lista
 
 lista1.append("e")  # Añade un elemento al final
+=======
+from os import system
+if system("clear") != 0: system("cls")
+
+# Creamos una lista con valores
+lista1 = ['a', 'b', 'c', 'd']
+
+# Añadir o insertar elementos a la lista
+lista1.append('e') # Añade un elemento al final
+>>>>>>> b11589f817ab8de40a23f6e858ea87d3d7abcd0d
 print(lista1)
 
 lista1.insert(
@@ -33,7 +44,7 @@ print(lista1)
 lista1.pop(1)  # Eliminar el segundo elemento de la lista (es el índice 1)
 print(lista1)
 
-# Eliminar por lo bestia
+# Eliminar por lo bestia un índice
 del lista1[-1]
 print(lista1)
 
@@ -41,8 +52,13 @@ lista1.clear()  # Eliminar todos los elementos de la lista
 print(lista1)
 
 # Eliminar un rango de elementos
+<<<<<<< HEAD
 lista1 = ["🐼", "🐨", "🐶", "😿", "🐹"]
 del lista1[1:3]
+=======
+lista1 = ['🐼', '🐨', '🐶', '😿', '🐹']
+del lista1[1:3] # eliminamos los elementos del índice 1 al 3 (no incluye el índice 3)
+>>>>>>> b11589f817ab8de40a23f6e858ea87d3d7abcd0d
 print(lista1)
 
 # Más métodos útiles
@@ -74,7 +90,7 @@ print("🐼" in animals)  # Comprueba si hay un '🐼' en la lista -> True
 print("🐹" in animals)  # -> False
 
 ###
-# EJERCICOS
+# EJERCICIOS
 # Usa siempre que puedas los métodos que has aprendido
 ###
 

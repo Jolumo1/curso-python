@@ -4,9 +4,14 @@
 # Pueden contener elementos de diferentes tipos.
 ###
 
+<<<<<<< HEAD
 import os
 
 os.system("clear")
+=======
+from os import system
+if system("clear") != 0: system("cls")
+>>>>>>> b11589f817ab8de40a23f6e858ea87d3d7abcd0d
 
 # Creación de listas
 print("\nCrear listas")
@@ -41,7 +46,7 @@ print(lista1[:3])  # [1, 2, 3]
 print(lista1[3:])  # [4, 5]
 print(lista1[:])  # [1, 2, 3, 4, 5]
 
-# HAY MÁS MAGIA
+# El tercer parámetro es el paso (step)
 lista1 = [1, 2, 3, 4, 5, 6, 7, 8]
 print(lista1[::2])  # para devolver índices pares
 print(lista1[::-1])  # para devolver índices inversos
@@ -65,7 +70,7 @@ print(lista1)
 print("Longitud de la lista", len(lista1))
 
 ###
-# EJERCICOS
+# EJERCICIOS
 ###
 
 # Ejercicio 1: El mensaje secreto

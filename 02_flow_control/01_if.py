@@ -3,6 +3,7 @@
 # Permiten ejecutar bloques de código solo si se cumplen ciertas condiciones.
 ###
 
+<<<<<<< HEAD
 # Podemos importar módulos de Python para usarlos en nuestros programas.
 # En este caso, importamos el módulo "os" que nos da acceso a funciones
 # relacionadas con el sistema operativo
@@ -14,9 +15,12 @@ import os
 # en este caso lo hacemos para limpiar la pantalla
 >>>>>>> 683b639c690f953e678d563b2dcf36bc64ecd07a
 os.system("clear")
+=======
+from os import system
+if system("clear") != 0: system("cls")
+>>>>>>> b11589f817ab8de40a23f6e858ea87d3d7abcd0d
 
 print("\n Sentencia simple condicional")
-
 # Podemos usar la palabra clave "if" para ejecutar un bloque de código
 # solo si se cumple una condición.
 edad = 18
@@ -148,7 +152,7 @@ mensaje = "Es mayor de edad" if edad >= 18 else "Es menor de edad"
 print(mensaje)
 
 ###
-# EJERCICOS
+# EJERCICIOS
 ###
 
 # Ejercicio 1: Determinar el mayor de dos números

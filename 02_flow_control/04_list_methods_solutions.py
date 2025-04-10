@@ -1,5 +1,5 @@
 ###
-# EJERCICOS
+# EJERCICIOS
 ###
 
 # Ejercicio 1: Añadir y modificar elementos
